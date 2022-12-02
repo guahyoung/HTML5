@@ -16,9 +16,7 @@ body{
 .header, .visual, .main, .slogan, .footer-inner{
   width: 940px;
   margin: 0 auto;
-
 }
-
 
 /* 헤더 */
 .header{
@@ -34,9 +32,12 @@ body{
 /* 메인 */
 .main{
   background: lightgreen; 
-  height: 50vh;
+  min-height: 450px;
   display: flex;
-  flex-direction: row;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 30px;
 }
 
 
