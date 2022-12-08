@@ -235,6 +235,7 @@ body {
   animation-name: moveEffect;
   animation-duration: 2000ms;
   animation-fill-mode: forwards;
+  display: inline-block;
 }
 /* 메인 */
 .main {
